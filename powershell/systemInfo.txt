@@ -1,0 +1,1 @@
+This machine's IP is 192.168.33.199. User is phelpscs-win\administrator. Hostname is ConsoleHost. PowerShell Version 7.2.6. Today's Date is 9/15/2022 4:28:14 PM
