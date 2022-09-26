@@ -12,9 +12,8 @@ def isPrime(n):
         return False
     for i in range(2, n):
         if n % i == 0:            
-            return False        
-    else:
-        return True
+            return False     
+    return True
 
 print("Pi Function Calculator!")
 number = int(input("Please enter a number: "))
