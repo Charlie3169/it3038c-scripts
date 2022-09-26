@@ -4,7 +4,7 @@ def piFunction(n):
     primeCount = 0       
     for i in range(2, n):
         if(isPrime(i)): 
-            primeCount = primeCount + 1
+            primeCount += 1
     return primeCount
 
 def isPrime(n):
