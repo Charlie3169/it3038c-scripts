@@ -7,6 +7,7 @@ from sympy import *
 
 x, y, z, c = symbols('x y z c')
 
+#Factoring and Expansion
 print(expand((((c)**2 + c)**2 + c)**2 + c))
 print(factor(expand((((c)**2 + c)**2 + c)**2 + c)))
 
@@ -16,7 +17,7 @@ eq1 = Eq(x + 1, 4)
 print(eq1)
 print(solve(eq1))
 
-print('\nSytem of equations with two variables')
+print('\nSystem of equations with two variables')
 eq2 = Eq(5*x + 5*y - 7, 0)
 eq3 = Eq(6*x - 4*y - 9, 0)
 solution = solve((eq2,eq3), (x,y))
