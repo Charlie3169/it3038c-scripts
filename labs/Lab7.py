@@ -1,6 +1,7 @@
 from sympy import *
 
 # https://pypi.org/project/sympy/
+# https://docs.sympy.org/latest/index.html
 # Sympy is a python libray for symbolic math calculations
 # You can do all this op stuff
 
