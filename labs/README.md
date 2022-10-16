@@ -1,6 +1,6 @@
 # Lab 7 Info
 
-For this lab I chose to cover SymPy, a Python libray that does symbolic math calculations
+For this lab I chose to cover SymPy, a Python library that does symbolic math calculations
 
 Create a virtual environment if you want, or don't
 
