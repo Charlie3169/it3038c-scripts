@@ -1,0 +1,1 @@
+Just do pip install sympy
