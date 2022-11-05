@@ -1,0 +1,1 @@
+[{"name":"widget1","color":"blue"},{"name":"widget2","color":"green"},{"name":"widget3","color":"black"},{"name":"widgetX","color":"blue"}]
