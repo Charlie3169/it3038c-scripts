@@ -1,0 +1,22 @@
+{
+  "name": "it3038c-scripts",
+  "version": "1.0.0",
+  "description": "======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlie3169/it3038c-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charlie3169/it3038c-scripts/issues"
+  },
+  "homepage": "https://github.com/Charlie3169/it3038c-scripts#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
