@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Charlie3169/it3038c-scripts#readme",
   "engines": {
     "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "config": "^3.3.8",
+    "express": "^4.18.2"
   }
 }
