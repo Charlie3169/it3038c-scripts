@@ -19,7 +19,17 @@ app.get('/', function(request, response) {
     )
 })
 
-
+app.get('/env', (request, response) => {
+    if (config.util.getEnv("NODE_ENV") === "Testing") {
+      response.send('<b>You are working in the <em>TEST</em> environment.</b>')
+    } else if (config.util.getEnv("NODE_ENV") === "Heroku Test") {
+      response.send('<b>You are working in the <em>TEST</em> environment that is in Heroku.</b>')
+    } else if (config.util.getEnv("NODE_ENV") === "Production") {
+      response.send('<b>You are working in Production</b>')
+    } else {
+      response.send('<b>Environment is unknown</b>')
+    }
+  })
 
 app.get('/api', (request, response) => {
     response.send(JSON.stringify(data))    
